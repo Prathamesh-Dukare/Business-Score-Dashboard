@@ -5,11 +5,11 @@ import './App.css'
 
 function App() {
     return (
-        <section className='App'>
+        <section className='App bg-bgmain text-white border border-orange-400 max-w-screen-md m-auto p-2 sm:p-5'>
             <Header />
             <section className="main">
-                <BScore />
-                <BDetails />
+                {/* <BScore />
+                <BDetails /> */}
             </section>
         </section>
     )
