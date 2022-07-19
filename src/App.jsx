@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Header from './components/Header'
+import BScore from './components/BScore'
+import BDetails from './components/BDetails'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      hello
-      <h1 className="text-3xl font-bold underline text-red-300">
-        Hello world!
-      </h1>
-
-    </div>
-  )
+    return (
+        <section className='App'>
+            <Header />
+            <section className="main">
+                <BScore />
+                <BDetails />
+            </section>
+        </section>
+    )
 }
 
 export default App
