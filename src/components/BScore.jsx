@@ -6,7 +6,7 @@ import scoreChart from '../assets/score-chart.svg'
 
 export default function BScore() {
     return (
-        <section className="b-score-sec bg-bg-dark py-5">
+        <section className="b-score-sec bg-bg-dark m-mobile:rounded-xl py-5">
 
             <div className="score-meter text-center items-center h-32">
                 <div className="meter-container text-center m-auto"><Meter /></div>
