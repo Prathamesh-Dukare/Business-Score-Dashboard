@@ -7,7 +7,7 @@ function App() {
     return (
         <section className='App bg-bgmain text-white border border-orange-400 max-w-screen-md m-auto p-2 sm:p-5'>
             <Header />
-            <section className="main-section flex">
+            <section className="main-section md:flex">
                 <BScore />
                 <BDetails />
             </section>
