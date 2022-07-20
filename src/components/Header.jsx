@@ -5,8 +5,7 @@ import searchIcon from '../assets/search.svg'
 
 export default function Header() {
     return (
-        <section className='header  '>
-
+        <section className='header px-2 sm:px-0'>
             <div className='header-nav flex justify-between items-center'>
                 <div className="navigate flex items-center space-x-3">
                     <img className="back-arrow w-3 hover:cursor-pointer" src={arrowImg} alt="Back" />
