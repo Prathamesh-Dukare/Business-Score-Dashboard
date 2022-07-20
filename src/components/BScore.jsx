@@ -6,7 +6,7 @@ import scoreChart from '../assets/score-chart.svg'
 
 export default function BScore() {
     return (
-        <section className="b-score-sec">
+        <section className="b-score-sec bg-[#191B1C] py-5">
 
             <div className="score-meter text-center items-center h-32">
                 <div className="meter-container text-center m-auto"><Meter /></div>
@@ -35,7 +35,7 @@ export default function BScore() {
 
             <div className="bscore-chart text-center my-5">
                 <p className='text-[#BFBFBF] text-xl'>B-score growth chart</p>
-                <img className='px-5' src={scoreChart} alt="BScore Chart" />
+                <img className='px-5 mx-auto' src={scoreChart} alt="BScore Chart"/>
             </div>
 
         </section>

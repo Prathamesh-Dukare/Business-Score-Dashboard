@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     screens:{
       's-mobile':"380px",
+      'm-mobile':"491px",
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -15,8 +16,9 @@ module.exports = {
     },
     extend: {
       colors:{
-        "bgmain": "#1E1E1E",
+        "bgmain": "#212426",
         "bg-light": "#333333",
+        "card-bg":"#ffffff0d",
         "primary-blue":"#426BB6"
       }
     },

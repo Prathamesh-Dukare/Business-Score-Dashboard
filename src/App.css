@@ -13,6 +13,13 @@
   margin: 0 auto;
   /* position: absolute; */
   }
+
+  table {
+    border-spacing: 0 1em;
+    border-collapse: separate!important;
+    border-spacing: 35px 3px;
+    margin: 0 auto;
+}
   
 /* #root {
   max-width: 1280px;
