@@ -1,5 +1,6 @@
 import React from 'react'
 import BalanceCard from './BalanceCard'
+import StatCard from './StatCard'
 
 export default function BDetails() {
     return (
@@ -39,28 +40,56 @@ export default function BDetails() {
                 <BalanceCard amount="18/month" info="Transsactions" condition="worth 50K+" />
             </div>
 
-            <div className="pnl-stats flex flex-wrap justify-between bg-bg-dark px-3 py-3 rounded-sm">
+            <div className="pnl-stats flex flex-wrap justify-between m-mobile:rounded-xl bg-bg-dark px-3 py-3 rounded-sm">
                 <div className='text-center flex flex-col gap-2'>
-                    <h2 className='font-semibold text-lg'>22.7L</h2>
-                    <p className='text-light-text text-xs'>Gross Income</p>
+                    <h2 className='font-semibold text-xl'>22.7L</h2>
+                    <p className='text-light-text text-[14px]'>Gross Income</p>
                 </div>
                 <div className='text-center flex flex-col gap-2'>
-                    <h2 className='font-semibold text-lg'>19.3L</h2>
-                    <p className='text-light-text text-xs'>Gross Income</p>
+                    <h2 className='font-semibold text-xl'>19.3L</h2>
+                    <p className='text-light-text text-[14px]'>Gross Income</p>
                 </div>
                 <div className='text-center flex flex-col gap-2'>
-                    <h2 className='font-semibold text-lg text-[#f9595b]'>3.5L</h2>
-                    <p className='text-light-text text-xs'>Expenditures</p>
+                    <h2 className='font-semibold text-xl text-[#f9595b]'>3.5L</h2>
+                    <p className='text-light-text text-[14px]'>Expenditures</p>
                 </div>
                 <div className='text-center flex flex-col gap-2'>
-                    <h2 className='font-semibold text-lg text-[#439B6A]'>19.2L</h2>
-                    <p className='text-light-text text-xs'>Gross Profit</p>
+                    <h2 className='font-semibold text-xl text-[#439B6A]'>19.2L</h2>
+                    <p className='text-light-text text-[14px]'>Gross Profit</p>
                 </div>
             </div>
 
-            <div className="customer-stats"></div>
+            <div className="customer-stats flex text-center flex-col items-center my-3 m-mobile:flex-row m-mobile:space-y-0 gap-3">
+                <div className="stat-card border border-bg-light flex flex-1 justify-center text-[14px] text-light-text px-5 py-3 gap-8 rounded-lg">
+                    <div>
+                        <h2 className='font-semibold text-xl text-white mb-1'>1352</h2>
+                        <span>Customers</span> <br />
+                        <span>Served</span>
+                    </div>
+                    <div>
+                        <h2 className='font-semibold text-xl text-white mb-1'>12</h2>
+                        <span>Recurring</span><br />
+                        <span>Transactions</span>
+                    </div>
+                </div>
+                <div className="stat-card border border-bg-light flex flex-1 justify-center text-[14px] text-light-text px-5 py-3 gap-8 rounded-lg">
+                    <div>
+                        <h2 className='font-semibold text-xl text-white mb-1'>2</h2>
+                        <span>People</span> <br />
+                        <span>Employed</span>
+                    </div>
+                    <div>
+                        <h2 className='font-semibold text-xl text-white mb-1'>2.4L/yr</h2>
+                        <span>Recurring</span><br />
+                        <span>Transactions</span>
+                    </div>
+                </div>
 
-            <div className="taxes-stats"></div>
+            </div>
+
+            <div className="taxes-stats">
+
+            </div>
         </section>
     )
 }

@@ -20,9 +20,6 @@
     border-spacing: 35px 3px;
     margin: 0 auto;
 }
-tr{
-  overflow: hidden;
-}
 
 /* for extra smaller screen  */
 @media screen and (max-width: 375px) {
