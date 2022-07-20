@@ -1,6 +1,6 @@
 import React from 'react'
 import Meter from './Meter'
-import verifiedIcon from '../assets/verified.svg'
+import verifiedIcon from '../assets/Verified.svg'
 import likeIcon from '../assets/Heart.svg'
 import scoreChart from '../assets/score-chart.svg'
 
