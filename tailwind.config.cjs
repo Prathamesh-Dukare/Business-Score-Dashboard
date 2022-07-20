@@ -18,6 +18,8 @@ module.exports = {
       colors:{
         "bgmain": "#212426",
         "bg-light": "#333333",
+        "bg-dark": "#191B1C",
+        "light-text": "#BFBFBF",
         "card-bg":"#ffffff0d",
         "primary-blue":"#426BB6"
       }
