@@ -1,6 +1,5 @@
 import React from 'react'
 import BalanceCard from './BalanceCard'
-import StatCard from './StatCard'
 
 export default function BDetails() {
     return (
@@ -87,8 +86,27 @@ export default function BDetails() {
 
             </div>
 
-            <div className="taxes-stats">
+            <div className="taxes-stats bg-bg-dark m-mobile:rounded-xl">
+                <table className='py-5'>
+                    <tr>
+                        <td className=''>Disciplinary Filing of TDS</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td className=''>Total Value of Tax Filing</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td className=''>Total TDS Deducted</td>
+                        <td>₹ 75,692/-</td>
+                    </tr>
 
+                </table>
+
+                <div className="credit-score text-center bg-[#00000026] space-y-3 px-3 py-5">
+                    <h2 className='text-[#FFDD65] font-semibold text-xl'>822</h2>
+                    <p className='text-light-text text-[14px]'>Credit Score (Of Business Owner)</p>
+                </div>
             </div>
         </section>
     )
