@@ -3,7 +3,7 @@ import BalanceCard from './BalanceCard'
 
 export default function BDetails() {
     return (
-        <section className="b-details mx-auto max-w-[550px] my-5">
+        <section className="b-details mx-auto max-w-[550px] md:max-w-[500px] my-5 md:my-0">
             <div className="business-info border m-mobile:rounded-xl max-w-full mx-auto border-bg-light">
                 <table className='font-light'>
                     <tr>
@@ -33,7 +33,7 @@ export default function BDetails() {
                 </table>
             </div>
 
-            <div className="balance-cards flex flex-wrap justify-center gap-5 mx-auto my-5 max-w-full">
+            <div className="balance-cards flex flex-wrap md:flex-nowrap justify-center m-mobile:justify-between md:justify-between gap-5 mx-auto my-4 max-w-full">
                 <BalanceCard amount="2.75L" info="Avg Balance" condition="Monthly in INR" />
                 <BalanceCard amount="8.38L" info="Avg Balance" condition="Quaterly in INR" />
                 <BalanceCard amount="18/month" info="Transsactions" condition="worth 50K+" />
@@ -86,8 +86,8 @@ export default function BDetails() {
 
             </div>
 
-            <div className="taxes-stats bg-bg-dark m-mobile:rounded-xl">
-                <table className='py-5'>
+            <div className="taxes-stats bg-bg-dark md:flex m-mobile:rounded-xl">
+                <table className='py-5 md:mx-0 md:w-3/4'>
                     <tr>
                         <td className=''>Disciplinary Filing of TDS</td>
                         <td>6</td>
@@ -103,7 +103,7 @@ export default function BDetails() {
 
                 </table>
 
-                <div className="credit-score text-center bg-[#00000026] space-y-3 px-3 py-5">
+                <div className="credit-score text-center md:w-1/4 bg-[#00000026] space-y-3 px-3 py-5">
                     <h2 className='text-[#FFDD65] font-semibold text-xl'>822</h2>
                     <p className='text-light-text text-[14px]'>Credit Score (Of Business Owner)</p>
                 </div>

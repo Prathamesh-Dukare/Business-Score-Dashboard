@@ -6,7 +6,7 @@ import scoreChart from '../assets/score-chart.svg'
 
 export default function BScore() {
     return (
-        <section className="b-score-sec bg-bg-dark m-mobile:rounded-xl py-5">
+        <section className="b-score-sec bg-bg-dark md:max-w-[340px] m-mobile:rounded-xl py-5">
 
             <div className="score-meter text-center items-center h-32">
                 <div className="meter-container text-center m-auto"><Meter /></div>
@@ -22,7 +22,7 @@ export default function BScore() {
             <div className="merchant text-center">
                 <div className="merchant-name flex justify-center">
                     <p className='tracking-wide'>Johnathan Enterprises</p>
-                    <img className='w-6' src={verifiedIcon} alt="Verified" />
+                    <img className='w-5 ml-1' src={verifiedIcon} alt="Verified" />
                 </div>
                 <p className='merchant-owner text-light-text'>John Smith</p>
                 <p className='merchant-contact text-light-text'>+91 XXXX XX XXXX</p>
@@ -35,7 +35,7 @@ export default function BScore() {
 
             <div className="bscore-chart text-center my-5">
                 <p className='text-light-text text-lg'>B-score growth chart</p>
-                <img className='px-5 mx-auto' src={scoreChart} alt="BScore Chart"/>
+                <img className='px-5 mx-auto hover:cursor-pointer' src={scoreChart} alt="BScore Chart"/>
             </div>
 
         </section>
