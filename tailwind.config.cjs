@@ -14,6 +14,10 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px'
     },
+    fontFamily: {
+      // sans: ["Syne", "sans-serif"],
+      mulish: ['Mulish', 'sans-serif'],
+    },
     extend: {
       colors:{
         "bgmain": "#212426",
