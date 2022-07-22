@@ -22,7 +22,7 @@ export default function BScore() {
             <div className="merchant text-center">
                 <div className="merchant-name flex justify-center">
                     <p className='tracking-wide'>Johnathan Enterprises</p>
-                    <img className='w-5 ml-1' src={verifiedIcon} alt="Verified" />
+                    <img className='w-5 ml-1 hover:cursor-pointer' title='Verified Business' src={verifiedIcon} alt="Verified" />
                 </div>
                 <p className='merchant-owner text-light-text'>John Smith</p>
                 <p className='merchant-contact text-light-text'>+91 XXXX XX XXXX</p>
