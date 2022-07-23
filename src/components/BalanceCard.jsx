@@ -3,9 +3,9 @@ import React from 'react'
 export default function BalanceCard(props) {
     const { amount, info, condition } = props
     return (
-        <div className='balance-card bg-card-bg rounded-xl inline-block text-center p-4 space-y-3 w-36 md:p-3 md:w-30'>
-            <h2 className='font-semibold text-xl'>{amount}</h2>
-            <div className='text-light-text text-sm'>
+        <div className='balance-card md:p-3 md:w-30 space-y-3'>
+            <h2 className='amount'>{amount}</h2>
+            <div className='card-info'>
                 <p>{info}</p>
                 <p>({condition})</p>
             </div>

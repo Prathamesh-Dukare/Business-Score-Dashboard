@@ -21,6 +21,25 @@ table {
   margin: 0 auto;
 }
 
+/* for balance card component */
+.balance-card {
+  text-align: center;
+  width: 9rem;
+  background-color: #ffffff0d;
+  border-radius: 0.75rem;
+  display: inline-block;
+  padding: 1rem;
+}
+.amount {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.card-info {
+  color: #BFBFBF;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 /* for extra smaller screen  */
 @media screen and (max-width: 375px) {
   table {
