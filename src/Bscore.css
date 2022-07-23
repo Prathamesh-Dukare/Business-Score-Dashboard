@@ -1,0 +1,94 @@
+/* styles for score meter  */
+
+/* common styles  */
+:root {
+  --bg-dark: #191b1c;
+  --light-text: #bfbfbf;
+}
+.centered-text {
+  text-align: center;
+}
+.font-light {
+  font-weight: 300;
+}
+.text-light {
+  color: var(--light-text);
+}
+.pointer {
+  cursor: pointer;
+}
+
+/* unique styles  */
+/* 1. Score meter  */
+.b-score-sec {
+  background-color: var(--bg-dark);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.score-meter {
+  width: 200px;
+  height: 100px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 10px solid rgb(47, 94, 176);
+  border-bottom: 0;
+  background-color: transparent;
+  margin: 0 auto;
+  /* position: absolute; */
+}
+.score-meter-main {
+  align-items: center;
+  height: 8rem;
+}
+.meter-container {
+  margin: auto;
+}
+.meter-info {
+  position: relative;
+  bottom: 5rem;
+}
+
+/* 2. Merchant  */
+.merchant-name {
+  display: flex;
+  justify-content: center;
+}
+.verified-icon {
+  width: 1.25rem;
+  margin-left: 0.25rem;
+}
+.support {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+  background-color: #ffffff0d;
+  border-radius: 1rem;
+  padding: 0.25rem 0.75rem;
+}
+.like-icon {
+  width: 1.5rem;
+  display: inline-block;
+}
+.support-count {
+  display: inline-block;
+  font-weight: 400;
+}
+
+/* 3. chart  */
+.bscore-chart {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.chart-heading {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.score-chart {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}

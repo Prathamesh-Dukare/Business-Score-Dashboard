@@ -2,18 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.semi-circle{
-  width: 200px;
-  height: 100px;
-  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-  border: 10px solid rgb(47, 94, 176);
-  border-bottom: 0;
-  background-color: transparent;
-  margin: 0 auto;
-  /* position: absolute; */
-  }
-
-  table {
+table {
     border-spacing: 0 1em;
     border-collapse: separate!important;
     border-spacing: 35px 3px;

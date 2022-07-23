@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Meter() {
   return (
-    <div className='semi-circle'>
+    <div className='score-meter'>
 
     </div>
   )
