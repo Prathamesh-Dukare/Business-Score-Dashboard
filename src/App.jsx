@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
     return (
-        <section className='App bg-bgmain text-white rounded-sm max-w-screen-md md:max-w-[900px] m-auto p-2 px-0 sm:p-5'>
+        <section className='App sm:p-5 md:max-w-[900px]'>
             <Header />
             <section className="main-section md:flex md:space-x-5">
                 <BScore />
